@@ -11,7 +11,7 @@ int main(void)
     }
     while (height < 0 || height > 23); // Validate steps
 
-    for (int i = 0; i < height; i++) // Loop counting lines
+    for (int i = 0; i < height; i++) // Loop line counter
     {
 
 
