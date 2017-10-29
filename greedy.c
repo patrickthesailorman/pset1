@@ -14,27 +14,27 @@ int main(void)
     }
     while (change < 0.00); // Validate input is a float
 
-     cents = round (change * 100); // Convert float to int
+    cents = round (change * 100); // Convert float to int
 
     while (cents >= 25) // Will it take a quater, how many
-        {
-            coins ++;
-            cents -=25;
-        }
+    {
+        coins ++;
+        cents -= 25;
+    }
     while (cents >= 10) // Will it take a dime, how many
-        {
-            coins ++;
-            cents -=10;
-        }
+    {
+        coins ++;
+        cents -= 10;
+    }
     while (cents >= 5) // Will it take a nickel, how many
-        {
-            coins ++;
-            cents -=5;
-        }
+    {
+        coins ++;
+        cents -= 5;
+    }
     while (cents >= 1) // Remainder in pennies
-        {
-            coins ++;
-            cents -=1;
-        }       
-        printf("Total coins:%i\n", coins); // return total number of coins used to make change
+    {
+        coins ++;
+        cents -= 1;
+    }
+    printf("Total coins:%i\n", coins); // return total number of coins used to make change
 }
