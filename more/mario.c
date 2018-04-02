@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// returns mirrored staircase
+// takes input 'steps' returns mirrored staircase
 
 int main(void)
 {
