@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// Takes an input of number of steps and returns staircase
+
 int main(void)
 {
     int height;
