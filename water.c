@@ -1,6 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
-
+// Takes input in minutes and converts to bottles of water used
 int main(void)
 {
     int n;
