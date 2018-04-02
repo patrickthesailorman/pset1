@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <math.h>
 
+// take input as change owed and return minimum of coins needed.
+
 int main(void)
 {
     float change;
