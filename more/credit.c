@@ -11,4 +11,5 @@ int main(void)
         printf("Enter credit card number:\n");
         cc = get_long_long(); // User enters cc number
     }
+    while ( cc < 0 ); // validate numbers entered
 }
