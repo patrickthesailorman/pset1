@@ -12,4 +12,8 @@ int main(void)
         cc = get_long_long(); // User enters cc number
     }
     while ( cc < 0 ); // validate numbers entered
+     for (int i = 0; i < cc.length - 2; i-2) // iterate through numbers
+    {
+        i * 2;
+    }
 }
