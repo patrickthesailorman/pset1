@@ -25,17 +25,12 @@ int main(void)
             printf("#");
         }
 
-            printf("  ");
+        printf("  ");
 
         for (int a = 0; a < 1 + i; a++) // Loop increasing #'s'
         {
             printf("#");
         }
-
-        // for (int b = 0; b < height - i; b++) // Loop increasing spaces
-        // {
-        //     printf(" ");
-        // }
 
         printf("\n");
     }
