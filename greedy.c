@@ -16,7 +16,7 @@ int main(void)
     }
     while (change < 0.00); // Validate input is a float
 
-    cents = round (change * 100); // Convert float to int
+    cents = round(change * 100); // Convert float to int
 
     while (cents >= 25) // Will it take a quater, how many
     {
